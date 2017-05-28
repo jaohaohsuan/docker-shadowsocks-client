@@ -8,6 +8,6 @@ docker run --name shadowsocks-client \
             -d \
             -p 1080:1080 \
             -e SERVER_ADDR=server \
-            -e PASSWORD=KC36f644A194B7a6 \
+            -e PASSWORD=password \
             yikyo/shadowsocks-client:latest
 ```
